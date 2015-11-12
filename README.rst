@@ -26,8 +26,9 @@ system to plug VIFs that use OpenVSwitch bridges in some capacity.
 Configuration
 -------------
 
-The following configuration options are used by the
-`vif_plug_ivs.ivs_hybrid.IvsHybridPlugin` VIF plugin and are passed from the
+The following configuration options are used by both the
+`vif_plug_ivs.ivs.IvsBridgePlugin` and
+`vif_plug_ivs.ivs_hybrid.IvsHybridPlugin` VIF plugins and are passed from the
 `os_vif.initialize(**config)` function:
 
 * `network_device_mtu` -- Defaults to `1500`. Override to set the max
