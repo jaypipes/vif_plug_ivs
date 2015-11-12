@@ -1,7 +1,7 @@
 [run]
 branch = True
-source = vif_plug_ovs
-omit = tests/*,vif_plug_ovs/openstack/*
+source = vif_plug_ivs
+omit = tests/*,vif_plug_ivs/openstack/*
 
 [report]
 ignore-errors = True
