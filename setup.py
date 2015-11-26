@@ -27,9 +27,4 @@ except ImportError:
 
 setuptools.setup(
     setup_requires=['pbr'],
-    entry_points={
-        'os_vif': [
-            'ivs = vif_plug_ivs.ivs:IvsBridgePlugin',
-            'ivs_hybrid = vif_plug_ivs.ivs_hybrid:IvsHybridPlugin',
-        ],
     pbr=True)
